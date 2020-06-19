@@ -3,26 +3,19 @@ using namespace std;
 
 int main()
 {
-	
 	for (int i = 1; i <= 5; i++)
-	{int sum=0, n, ave;
-		cout << "²Ä" << i << "­Ó¯Z¯Å\n";
+	{
+		int sum=0, n, ave;
+		cout << "ç¬¬" << i << "å€‹ç­ç´š\n";
 		for(int j=1;j<=4;j++)
 		{
-			cout << "½Ğ¿é¤J²Ä" << j << "¦ì¾Ç¥Íªº¦¨ÁZ:";
+			cout << "è«‹è¼¸å…¥ç¬¬" << j << "ä½å­¸ç”Ÿçš„æˆç¸¾:";
 			cin >> n;
 			sum += n;
 			ave = sum / 4;
-		
 		}
-	cout << "²Ä" << i << "¯ZÁ`¦¨ÁZ¬°:" << sum << "¤À, ¥­§¡¬°" << ave << "¤À\n";
-    }
-	
-
-
-
-
-
+	cout << "ç¬¬" << i << "ç­ç¸½æˆç¸¾ç‚º:" << sum << "åˆ†, å¹³å‡ç‚º" << ave << "åˆ†\n";
+        }
 	system("pause");
 	return 0;
 }
