@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 	int a[] = { 20, 45, 98, 23, 85 };
 	int tem;
-	cout << "�Ƨǫe�ƭȧǦC:\n" ;
+	cout << "排序前數值序列:\n" ;
 	for (int i = 0; i <= 4; i++)
 	{
 		cout << a[i] << " ";
@@ -21,7 +21,7 @@ int main(){
 			}
 		}
 	}
-	cout << "\n�Ѥj��p�Ƨǫ�\n";
+	cout << "\n由大到小排序後\n";
 	for (int i = 0; i <= 4; i++)
 	{
 		cout << a[i] << " ";
