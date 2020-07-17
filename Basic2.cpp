@@ -4,13 +4,22 @@ using namespace std;
 int main()
 {
 	string name;
-	cout << "�п�J�m�W�G";
+	cout << "請輸入姓名：";
 	cin >> name;
-	cout << "\n�w��" << name << "\t�ϥΥ��n��";
+	cout << "\n歡迎" << name << "\t使用本軟體";
+	system("pause");
+	return 0;
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#include <iostream>
+using namespace std;
 
-
-
-
+int main()
+{
+	string name;
+	cout << "請輸入姓名：";
+	cin >> name;
+	cout << "\n歡迎" << name << "\t使用本軟體";
 	system("pause");
 	return 0;
 }
