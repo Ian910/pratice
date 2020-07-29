@@ -4,29 +4,27 @@ using namespace std;
 int main()
 {
 	int number;
-	cout << "½Ğ¿é¤J²{¦b¬O²Ä´X©u¡G";
-	cin >> number;
+	printf("è«‹è¼¸å…¥ç¾åœ¨æ˜¯ç¬¬å¹¾å­£ï¼š");
+	scanf_s("%d", &number);
 	switch (number)
 	{
 	case 4:
-		cout << "²{¦b¬O¥V¤Ñ\n";
+		printf("ç¾åœ¨æ˜¯å†¬å¤©\n");
 		break;
 	case 3:
-		cout << "²{¦b¬O¬î¤Ñ\n";
+		printf("ç¾åœ¨æ˜¯ç§‹å¤©\n");
 		break;
 	case 2:
-		cout << "²{¦b¬O®L¤Ñ\n";
+		printf("ç¾åœ¨æ˜¯å¤å¤©\n");
 		break;
 	case 1:
-		cout << "²{¦b¬O¬K¤Ñ\n";
+		printf("ç¾åœ¨æ˜¯æ˜¥å¤©\n");
 		break;
 	default:
-		cout << "¿é¤Jªº¼Æ¦r¬O¤£¥¿½Tªº!\n";
+		printf("è¼¸å…¥çš„æ•¸å­—æ˜¯ä¸æ­£ç¢ºçš„!\n");
 		break;
 	}
-	
-
-
 	system("pause");
 	return 0;
 }
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
