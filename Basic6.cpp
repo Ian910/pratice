@@ -4,30 +4,60 @@ using namespace std;
 int main()
 {
 	string number;
-	cout << "½Ğ¿é¤J¦¨ÁZ(0~100)¡G";
+	cout << "è«‹è¼¸å…¥æˆç¸¾(0~100)ï¼š";
 	cin >> number;
 	if (number >= "90")
 	{
-		cout << "Àuµ¥\n";
+		cout << "å„ªç­‰\n";
 	}
 	else if(number >= "80")
 	{
-		cout << "¥Òµ¥\n";
+		cout << "ç”²ç­‰\n";
 	}
 	else if (number >= "70")
 	{
-		cout << "¤Aµ¥\n";
+		cout << "ä¹™ç­‰\n";
 	}
 	else if (number >= "60")
 	{
-		cout << "¤şµ¥\n";
+		cout << "ä¸™ç­‰\n";
 	}
 	else 
 	{
-		cout << "¤Bµ¥\n";
+		cout << "ä¸ç­‰\n";
 	}
+	system("pause");
+	return 0;
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#include <iostream>
+using namespace std;
 
-
+int main()
+{
+	int number;
+	printf("è«‹è¼¸å…¥æˆç¸¾(0~100)ï¼š");
+	scanf_s("%d", &number);
+	if (number >= 90)
+	{
+		printf("å„ªç­‰\n");
+	}
+	else if (number >= 80)
+	{
+		printf("ç”²ç­‰\n");
+	}
+	else if (number >= 70)
+	{
+		printf("ä¹™ç­‰\n");
+	}
+	else if (number >= 60)
+	{
+		printf("ä¸™ç­‰\n");
+	}
+	else
+	{
+		printf("ä¸ç­‰\n");
+	}
 	system("pause");
 	return 0;
 }
