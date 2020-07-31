@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 
@@ -6,25 +5,45 @@ int main()
 {
 	int j;
 	float sum = 0;
-	cout << "½Ğ¿é¤J³f«~¥ó¼Æ";
+	cout << "è«‹è¼¸å…¥è²¨å“ä»¶æ•¸";
 	cin >> j;
 	const int n = 1000;
 	int score[n];
 	for (int i = 1; i <= j; i++)
 	{
-		cout << "½Ğ¿é¤J²Ä" << i << "¥ó³f«~ªº»ù®æ";
+		cout << "è«‹è¼¸å…¥ç¬¬" << i << "ä»¶è²¨å“çš„åƒ¹æ ¼";
 		cin >> score[i];
 	}
 	for (int i = 1; i <= j; i++)
 	{
 		sum += score[i];
 	}
-	cout << "¥ş³¡³f«~Á`»ù¬°:" << sum << "¤¸";
+	cout << "å…¨éƒ¨è²¨å“ç¸½åƒ¹ç‚º:" << sum << "å…ƒ";
+	system("pause");
+	return 0;
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#include <iostream>
+using namespace std;
 
-
-
-
-
+int main()
+{
+	int j;
+	float sum = 0.00;
+	printf("è«‹è¼¸å…¥è²¨å“ä»¶æ•¸");
+	scanf_s("%d",&j);
+	const int n = 1000;
+	int score[n];
+	for (int i = 1; i <= j; i++)
+	{
+		printf("è«‹è¼¸å…¥ç¬¬%dä»¶è²¨å“çš„åƒ¹æ ¼",i);
+		scanf_s("%d",&score[i]);
+	}
+	for (int i = 1; i <= j; i++)
+	{
+		sum += score[i];
+	}
+	printf("å…¨éƒ¨è²¨å“ç¸½åƒ¹ç‚º:%0.2få…ƒ",sum);
 	system("pause");
 	return 0;
 }
