@@ -4,9 +4,9 @@ using namespace std;
 int main() 
 {
 	char password[20];
-	cout << "½Ð¿é¤J±K½X(¥i¥]§tªÅ¥ÕÁä):";
+	cout << "è«‹è¼¸å…¥å¯†ç¢¼(å¯åŒ…å«ç©ºç™½éµ):";
 	gets_s(password);
-	cout << "¥[±K«áªº±K½X¬O:";
+	cout << "åŠ å¯†å¾Œçš„å¯†ç¢¼æ˜¯:";
 	for (int i = 0; i < strlen(password); i++)
 	{
 		password[i]--;
