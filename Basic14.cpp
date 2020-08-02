@@ -27,7 +27,7 @@ int main()
 		Isfound = false;
 		min = 0;
 		max = 5;
-		cout << "½Ð¿é¤J¬d¸ß¸¹½X:";
+		cout << "è«‹è¼¸å…¥æŸ¥è©¢è™Ÿç¢¼:";
 		cin >> s;
 		while (min <= max)
 		{
@@ -48,11 +48,11 @@ int main()
 		}
 		if (Isfound == true)
 		{
-			cout << num[mid] << "¦b°}¦C¤¤!\n";
+			cout << num[mid] << "åœ¨é™£åˆ—ä¸­!\n";
 		}
 		else
 		{
-			cout << s << "¤£¦b°}¦C¤¤!\n";
+			cout << s << "ä¸åœ¨é™£åˆ—ä¸­!\n";
 		}
 	}
 
