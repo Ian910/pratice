@@ -5,10 +5,10 @@ int main()
 {
 	int value;
 	float result;
-    cout << "½Ğ¿é¤JµØ¤ó·Å«×:";
+    cout << "è«‹è¼¸å…¥è¯æ°æº«åº¦:";
 	cin >> value;
 	result = Temperature(value);
-	cout << "Äá¤ó·Å«×=" << result;
+	cout << "æ”æ°æº«åº¦=" << result;
 	system("pause");
 	return 0;
 }
