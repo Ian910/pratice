@@ -55,8 +55,6 @@ int main()
 			cout << s << "不在陣列中!\n";
 		}
 	}
-
-
 	system("pause");
 	return 0;
 }
